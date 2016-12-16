@@ -8,8 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class ContextMenuActivity extends AppCompatActivity
-    implements View.OnClickListener{
+public class ContextMenuActivity extends AppCompatActivity {
 
     private final String ACTION_MESSAGE = "Action ";
     private final String TOAST_MESSAGE = "You have selected the Action ";
@@ -48,10 +47,5 @@ public class ContextMenuActivity extends AppCompatActivity
         }
         Toast.makeText(this, toastMsg, Toast.LENGTH_LONG).show();
         return true;
-    }
-
-    @Override
-    public void onClick(View v) {
-
     }
 }
