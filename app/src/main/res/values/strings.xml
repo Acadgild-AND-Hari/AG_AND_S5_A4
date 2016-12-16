@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Context Menu</string>
+    <string name="str_context_menu">Open Context Menu</string>
 </resources>
